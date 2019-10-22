@@ -13,5 +13,9 @@ public class Controller {
     public String test(){
         return "Hello World";
     }
+    @RequestMapping("/welcome")
+    public String welcome(){
+        return "welcome";
+    }
 }
 
